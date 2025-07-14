@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+    /* INPUT SEARCH */
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    width: 80%;
+}
+    /* INPUT SEARCH */
+
+    /* TABLE COINS */
+table {
+    width: 80%;
+    text-align: center;
+    margin: 3% auto;
+    border-collapse: separate;
+    border-spacing: 0 6px;
+}
+
+tbody td {
+    background-color: rgb(73, 72, 72);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+tbody td:last-child {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+tbody td:first-child {
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+td a {
+    color: white;
+}
+
+td a:hover {
+    transition: all 0.2s;
+    color: rgb(151, 163, 185);
+}
+
+.tdMore {
+    color: rgb(37, 182, 37);
+}
+
+.tdLess {
+    color: rgb(235, 48, 48);
+}
+
+.moreCoin {
+    background-color: brown;
+    width: 80%;
+}
+
+.btnMoreCoin {
+    background-color: rgb(49, 75, 90);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 15px;
+    font-weight: bold;
+}
+
+.btnMoreCoin:hover {
+    transition: all 300ms;
+    background-color: rgb(37, 102, 139);
+}
+
+    /* TABLE COINS */
+
+/* Start SMALL SCREEN */
+@media (max-width: 670px) {
+    thead {
+        display: none;
+    }
+
+    tbody td {
+        display: block;
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    tbody td::before {
+        content: attr(data-label);
+    }
+
+    tbody td:last-child {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 7px;
+    }
+
+    tbody td:first-child {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 7px;
+    }
+}
+/* The End SMALL SCREEN */
