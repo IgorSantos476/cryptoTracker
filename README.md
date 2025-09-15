@@ -5,7 +5,7 @@ Aplicativo para monitorar os preços, volumes e tendências das principais cript
 
 - **React**: Para a construção da interface de usuário.
 - **Vite**: Ferramenta de build e bundling rápida para React.
-- **API Coin Cap** (ou outra): Fonte dos dados de criptomoedas.
+- **API Coin Cap**: Fonte dos dados de criptomoedas.
 
 - ## Como Rodar o Projeto
   
