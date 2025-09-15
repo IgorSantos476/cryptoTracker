@@ -1,11 +1,11 @@
-# CryptoTracker - Monitor de Criptomoedas
-# React + TypeScripT
+# CryptoTracker - Valor atual de Criptomoedas
+# ReactJS + TypeScript
 
-Aplicativo para monitorar os preços, volumes e tendências das principais criptomoedas em tempo real. Ele consome uma API de criptomoedas e fornece informações detalhadas sobre as flutuações do mercado.
+Aplicativo para monitorar os preços, volumes e tendências das principais criptomoedas em tempo real. Ele consome uma API de criptomoedas e fornece informações detalhadas sobre as mudanças do mercado.
 
 - **React**: Para a construção da interface de usuário.
 - **Vite**: Ferramenta de build e bundling rápida para React.
-- **API Coin Cap**: Fonte dos dados de criptomoedas.
+- **API Coin Cap**: API utilizada para consumir dados atuais de criptomoedas.
 
 - ## Como Rodar o Projeto
   
